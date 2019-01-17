@@ -28,7 +28,7 @@ for i=1:5
 end
 [w,ww]=min(COSTFinal(i,:));
 c=2;
-[xf,xmo2,COSTFinal]=ToOptimizeCirclePart2(6,obs,5,1,x1(ww,:),d2,c);
+[xf,xmo2,COSTFinal]=ToOptimizeCirclePart2(6,obs,7,1,x1(ww,:),d2,c);
 % figure(99)
 % plot(obs(:,1),obs(:,2),'*')
 % hold on, plotSet(x1,Ima) %red (solutions)
